@@ -1,6 +1,6 @@
 # MNIST-TM-NPU
 Synthesizable, area-optimized 2-Layer NPU (784-64-10) for Edge FPGAs. Features a time-multiplexed single-MAC architecture with cycle-accurate BRAM scheduling and robust fixed-point saturation logic.
-Project Overview
+# Project Overview
 This repository contains the Register Transfer Level (RTL) Verilog implementation of a custom Neural Processing Unit (NPU) tailored for resource-constrained Edge AI applications. The design executes a 2-layer Deep Neural Network (784 input, 64 hidden, 10 output) for MNIST digit classification.
 
 Rather than deploying a highly parallelized, resource-heavy array of multipliers, this architecture achieves extreme area efficiency by heavily time-multiplexing a single Multiply-Accumulate (MAC) engine across two distinct computational phases.
