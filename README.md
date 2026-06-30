@@ -86,5 +86,6 @@ This project required solving several critical software-to-silicon interfacing b
 │   │   ├── test_image.hex
 │   │   ├── hidden_weights.hex
 │   │   ├── hidden_biases.hex
-│   │   └── ...
+│   │   ├── output_weights.hex
+|   |   ├──output_biases.hex
 └── README.md
