@@ -1,4 +1,4 @@
-# MNIST-TM-NPU 🧠⚡
+# MNIST-TM-NPU 
 
 **Synthesizable, area-optimized 2-Layer Neural Processing Unit (784-64-10) for Edge FPGAs.**
 
