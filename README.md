@@ -71,8 +71,8 @@ This project required solving several critical software-to-silicon interfacing b
 ## 7. Repository Structure
 
 ```text
-├── src/
-│   ├── verilog/
+├── sources/
+│   ├── new/
 │   │   ├── neural_net_top.v       # Top-level motherboard and Datapath MUXes
 │   │   ├── mac_unit.v             # Single Multiply-Accumulate Engine
 │   │   ├── argmax.v               # Hardware classifier
@@ -82,10 +82,9 @@ This project required solving several critical software-to-silicon interfacing b
 │   ├── python/
 │   │   └── train_and_extract.py   # TF/Keras training & 32-bit Hex extraction script
 ├── data/
-│   ├── hex_files/                 # .hex files loaded by Vivado $readmemh
-│   │   ├── test_image.hex
-│   │   ├── hidden_weights.hex
-│   │   ├── hidden_biases.hex
-│   │   ├── output_weights.hex
-|   |   ├──output_biases.hex
+│   ├── test_image.hex
+│   ├── hidden_weights.hex
+│   ├── hidden_biases.hex
+│   ├── output_weights.hex
+|   ├──output_biases.hex
 └── README.md
