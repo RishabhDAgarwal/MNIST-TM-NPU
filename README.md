@@ -88,3 +88,4 @@ This project required solving several critical software-to-silicon interfacing b
 │   ├── output_weights.hex
 |   ├──output_biases.hex
 └── README.md
+|── tb_neural_net.v                 # testbench
